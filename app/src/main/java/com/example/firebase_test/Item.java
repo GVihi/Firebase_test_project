@@ -33,6 +33,10 @@ public class Item {
     private Boolean purchased;
     private double latitude, longitude;
 
+    public Item(){
+
+    }
+
 
     public Item(String itemName, int quantity, Measurement measurement, Category category) {
         this.uuid = UUID.randomUUID().toString();

@@ -9,6 +9,10 @@ public class MyShoppingList {
     private String name;
     private ArrayList<Item> items;
 
+    public MyShoppingList(){
+
+    }
+
     public MyShoppingList(String name) {
         this.uuid = UUID.randomUUID().toString();
         this.name = name;
